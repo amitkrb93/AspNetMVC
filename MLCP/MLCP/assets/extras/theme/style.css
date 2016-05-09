@@ -1,0 +1,585 @@
+
+/*Version:1.0.0
+Created:Aug 2015
+File Description:Main CSS file of the template */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+
+
+/* ==================-------------------------------------------------
+    TABLE OF CONTENT
+   ==================-------------------------------------------------*/
+
+/*   
+   1. Nav Menu
+   2. About
+   3. Contact
+   4. Footer
+*/
+
+
+html, body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body
+{
+    background: #ffffff;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 700;
+}
+
+a
+{
+    color: #0066DC;
+    text-decoration: none;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+a
+{
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover
+{
+    color: #0099CC;
+}
+
+a:focus, a:active
+{
+    outline: none;
+}
+
+p
+{
+    font-family: 'Open Sans' , sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+::selection
+{
+    background: #0066DC;
+    color: #fff;
+}
+
+::-moz-selection
+{
+    background: #0066DC;
+    color: #fff;
+}
+
+
+/*-- Border style - 1 --*/
+
+.divider
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-image: -moz-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
+    background-image: -webkit-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
+    background-image: -ms-linear-gradient(180deg, #ffffff 0%, #e3e3e3 49%, #ffffff 100%);
+    width: 95%;
+    height: 1px;
+}
+
+/*-- Border style - 2 --*/
+
+hr
+{
+    margin: 0px;
+    padding: 0px;
+    border-style: dashed none none none;
+    border-width: 1px 0px 0px 0px;
+    border-top-color: #C0C0C0;
+}
+
+/*-- Helper Classes --*/
+
+.height
+{
+    height: 150px;
+}
+
+.padding-large {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.padding-top-large {
+  padding-top: 90px;
+}
+.margin-top-large {
+  margin-top: 90px;
+}
+.margin-bottom-large {
+  margin-bottom: 90px;
+}
+.margin-top-medium {
+  margin-top: 40px;
+}
+.margin-bottom-medium {
+  margin-bottom: 40px;
+}
+.margin-bottom-small {
+  margin-bottom: 25px;
+}
+.margin-right-small {
+  margin-right: 15px;
+}
+.margin-left-small {
+  margin-left: 15px;
+}
+.mat-none {
+  margin-top: 0;
+}
+.mab-none {
+  margin-bottom: 0;
+}
+.mar-none {
+  margin-right: 0;
+}
+.mal-none {
+  margin-left: 0;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* Section - Title   [ Heading Style  ]
+/*----------------------------------------------------------*/
+
+
+/*-- Heading Style - 1 --*/
+
+/*.section-header
+{
+    margin-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.section-title
+{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.section-title h1
+{
+    position: relative;
+    font-size: 36px;
+    margin-bottom: 24px;
+    padding-bottom: 22px;
+    text-transform: capitalize;
+    color: #0066DC;
+}
+
+.section-title span
+{
+    color: #333;
+}
+
+.section-title h1 span
+{
+    font-weight: 300;
+}
+
+.section-title h1 .white
+{
+    color: #FFFFFF;
+}
+
+.section-title h1:before, .section-title h1:after
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+}
+
+.section-title h1:before
+{
+    background-color: #0066DC;
+    bottom: 0;
+    height: 1px;
+    margin-left: -51px;
+    width: 102px;
+}
+
+.section-title h1:after
+{
+    width: 5px;
+    height: 5px;
+    bottom: -2px;
+    border-radius: 50%;
+}
+
+
+/*-- Heading Style - 2 --*/
+
+/*.column-title
+{
+    margin-top: 0;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    border-bottom-color: #DBDBDB;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.column-title:after
+{
+    content: " ";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 22%;
+    border-bottom: 1px solid #0066DC;
+
+
+}*/
+
+
+
+
+
+#header .main-navigation
+{
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+#header .navbar-brand
+{
+    height: auto;
+
+}
+
+#header .nav
+{
+    list-style: none;
+    margin-top: 16px;
+}
+
+#header .nav li
+{
+    margin: 0 0 0 24px;
+}
+
+#header .nav li a
+{
+    text-transform: uppercase;
+    padding: 5px 0;
+    color: #0066DC;
+    font-weight: 400;
+    position: relative;
+}
+
+#header .nav li a:after
+{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-bottom: 2px solid #0066DC;
+    width: 100%;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+#header .nav li.active a:after, #header .nav li.active a, #header .nav li a:hover::after, #header .nav li a:hover, #header .nav li a:focus
+{
+    background: none;
+    opacity: 1;
+    color: #0066DC;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+#header .affix
+{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+#header .affix .navbar-brand
+{
+    padding: 12px;
+}
+
+#header .affix .navbar-brand img
+{
+    width: 80%;
+}
+
+#header .affix .nav
+{
+    margin-top: 10px;
+}
+
+#bg
+{
+    background-size: 2250px auto;
+    width: 6750px;
+}
+
+#overlay
+{
+    margin: 0px;
+    padding: 0px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+/*-- Main Content [ In Side of BG Slider ] --*/
+
+#main
+{
+    margin: 0px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    padding-top: 120px;
+    color: #FFFFFF;
+}
+
+#main h1
+{
+    font-size: 4.35em;
+    font-weight: 900;
+    letter-spacing: -0.035em;
+    line-height: 1em;
+    position: relative;
+    color: #FFFFFF;
+}
+
+#main h2
+{
+    font-size: 2.35em;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 1.5em;
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#main span
+{
+    color: #33CCCC;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+}
+
+#main p
+{
+    font-size: 1.25em;
+    margin: 0.75em 0 0.75em 0;
+    opacity: 0.75;
+    position: relative;
+}
+
+/*--  Icons --*/
+
+#main ul.social-network
+{
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+#main ul.social-network li
+{
+    display: inline;
+    margin: 0 5px;
+}
+
+#main .social-network a.icoRss
+{
+    background:url("http://localhost:34466/akshara - aspx/assets/img/Snooker.png") no-repeat;
+    background-size:contain;
+     background-color:white;
+}
+
+#main .social-network a.icoFacebook
+{
+    background:url("http://localhost:34466/akshara - aspx/assets/img/table_tennis.png") no-repeat;
+    background-size:contain;
+     background-color:white;
+}
+
+#main .social-network a.icoTwitter
+{
+    background:url("http://localhost:34466/akshara - aspx/assets/img/Badminton.png") no-repeat;
+    background-size:contain;
+    background-color:white;
+}
+
+#main .social-network a.icoGoogle
+{
+    background:url("http://localhost:34466/akshara - aspx/assets/img/Squash.png") no-repeat;
+    background-size:contain;
+     background-color:white;
+}
+#main .social-network a.icoTable1
+{
+    background:url("http://localhost:34466/akshara - aspx/assets/img/1.png") no-repeat;
+    background-size:contain;
+     background-color:white;
+}
+#main .social-network a.icoTable2
+{
+    background:url("http://localhost:34466/akshara - aspx/assets/img/2.png") no-repeat;
+    background-size:contain;
+     background-color:white;
+}
+
+#main .social-network a.icoRss:hover
+{
+    background-color: #0590B8;
+}
+
+#main .social-network a.icoFacebook:hover
+{
+    background-color: #3B5998;
+}
+
+#main .social-network a.icoTwitter:hover
+{
+    background-color: #33ccff;
+}
+
+#main .social-network a.icoGoogle:hover
+{
+    background-color: #BD3518;
+}
+
+#main .social-network a.icoTable1:hover
+{
+    background-color: #0590B8;
+}
+
+#main .social-network a.icoTable2:hover
+{
+    background-color: #007bb7;
+}
+
+#main .social-network a.icoTable:hover
+{
+    background-color: #007bb7;
+}
+#main .social-network a.icoRss:hover i, #main .social-network a.icoFacebook:hover i, #main .social-network a.icoTwitter:hover i, #main .social-network a.icoGoogle:hover i, #main .social-network a.icoVimeo:hover i, #main .social-network a.icoLinkedin:hover i
+{
+    color: #fff;
+}
+
+#main a.socialIcon:hover, #main .socialHoverClass
+{
+    color: #44BCDD;
+}
+
+#main ul.bookingslots
+{
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+#main ul.bookingslots li
+{
+    display: inline;
+    margin: 0 5px;
+}
+#main .bookingslots li a
+{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width:120px;
+    height: 120px;
+    font-size: 20px;
+}
+#main .social-circle li a
+{
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+}
+
+#main .social-circle li a:hover
+{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#main a
+{
+    background: rgba(255, 255, 255, 0.2);
+}
